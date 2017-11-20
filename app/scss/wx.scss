@@ -1,0 +1,113 @@
+@charset "utf-8";
+html,body{
+  background-color: #D3D3D3;
+}
+
+
+#index{
+  background-color: #D3D3D3;
+  padding-top: 20px;
+  .header{
+    position: relative;
+    width: 80%;
+    margin: 10px auto 40px;
+    .user{
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0;
+      z-index: 1;
+    }
+    .title{
+      position: relative;
+      margin-left: 80px;
+      padding-top: 20px;
+      font-size: 14px;
+      z-index: 10;
+      .name{
+        height: 30px;
+        line-height: 30px;
+        color: #000;
+      }
+      .phone{
+        color: #333333;
+      }
+    }
+    .count{
+      position: relative;
+      float: right;
+      z-index: 2;
+      margin-right: 20px;
+      .people,.money{
+        float: left;
+        text-align: center;
+        color: #f24546;
+      }
+      .people{
+        padding-right: 8px;
+        margin-right: 8px;
+        border-right: 1px solid #ddd;
+      }
+      .people-img{
+        vertical-align: top;
+        width: 60px;
+      }
+      .money-img{
+        vertical-align: top;
+        margin-top: -2px;
+        width: 44px;
+      }
+    }
+  }
+  .main{
+    width: 90%;
+    margin: 0 auto;
+    .main-item{
+      display: inline-block;
+      width: 48%;
+      height: 100px;
+      margin-right: 2%;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      &.main-item1{
+        background: url("../images/rec.png") 0 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.main-item2{
+        margin-right: 0;
+        background: url("../images/cliend.png") 0 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.main-item3{
+        background: url("../images/rule.png") 0 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+      &.main-item4{
+        margin-right: 0;
+        background: url("../images/com.png") 0 0;
+        -webkit-background-size: cover;
+        background-size: cover;
+      }
+    }
+  }
+  .style{
+    width: 90%;
+    margin: 20px auto;
+    font-size: 20px;
+    color: #555;
+    .works{
+      margin-left: 10px;
+      font-size: 14px;
+      color: #ffffff;
+    }
+    .style-img{
+      margin-top: 23px;
+      width: 100%;
+    }
+  }
+}
+
+
